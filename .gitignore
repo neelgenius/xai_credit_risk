@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+
+# Virtual Environment
+venv/
+.env/
+.env.*
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.log
+
+# Data 
+data/raw/
+data/processed/
+
+# Artifacts (models, SHAP outputs)
+artifacts/
+
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+.vscode/
+
